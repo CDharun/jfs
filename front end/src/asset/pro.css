@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #141313db;
+    color: #fff;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .pro {
+    margin-bottom: 30px;
+  }
+  
+  .pro label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .pro input[type="radio"] {
+    margin-right: 10px;
+    justify-content: center;
+  }
+  
+  .pro p {
+    margin-top: 5px;
+  }
+  
+  .pro ul {
+    padding-left: 20px;
+  }
+  
+  .pro button {
+    background-color: #0063e5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pro button:hover {
+    background-color: #0047b3;
+  }
+  
+  .back-to-home {
+    margin-top: 30px;
+  }
+  .sub{
+    padding-left: 30px;
+    
+  }
+  .incon{
+    justify-content: center;
+    text-align: center;
+  }
+  .i1{
+    justify-content: space-around;
+  }
+  .i2{
+    justify-content: space-around;
+  }
+  .i3{
+    justify-content: space-around;
+  }
+  

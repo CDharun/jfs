@@ -1,0 +1,48 @@
+.body {
+  background-color: rgba(0, 0, 0, 0.886) !important;
+  min-width: 99vw;
+  min-height: 150vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.music-panels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.panel {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.panel a {
+  text-decoration: none;
+  font-family: "Market Deco";
+  font-size: 36px;
+  color: white;
+}
+
+.panel-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.panel-images img {
+  overflow: hidden;
+  height: 200px;
+  transition: transform 0.2s;
+  padding: 19px;
+  margin: 10px;
+}
+
+.panel-images img:hover {
+  transform: scale(1.3);
+}
